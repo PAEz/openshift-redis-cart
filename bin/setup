@@ -4,7 +4,7 @@ set -u
 
 source $OPENSHIFT_CARTRIDGE_SDK_BASH
 
-version=${REDIS_BRANCH:-2.8}
+version=${REDIS_BRANCH:-3.0}
 
 for dir in logs pid tmp env; do
 	mkdir -p $dir
